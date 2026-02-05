@@ -10,3 +10,9 @@ variable "frontend_sg_name" {
 variable "frontend_sg_description" {
   default = "created sg for frontend instances"
 }
+variable "bastion_sg_name" {
+  default = "bastion"
+}
+variable "bastion_sg_description" {
+  default = "created sg for bastion instances"
+}
